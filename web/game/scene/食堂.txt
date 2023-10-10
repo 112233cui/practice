@@ -1,0 +1,3 @@
+changeFigure: -right;
+changeBg:食堂.jpg;
+changeScene:图书馆.txt

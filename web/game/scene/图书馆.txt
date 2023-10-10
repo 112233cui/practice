@@ -1,0 +1,5 @@
+changeBg:图书馆.jpg;
+事件发生，做出选择 -fontSize=default;
+setVar:score=score+50;
+changeScene:毕业.txt -when=score>80;
+choose:食堂:食堂.txt|毕业:毕业.txt;

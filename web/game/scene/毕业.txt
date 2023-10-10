@@ -1,0 +1,3 @@
+changeBg:毕业典礼.jpg;
+intro:毕业了 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+end;

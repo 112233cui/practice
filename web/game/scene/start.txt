@@ -1,0 +1,8 @@
+setVar:score=0
+intro:这是一段故事背景|这又是一行 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;分号之后的内容不显示
+changeBg:水景广场.jpg -next;
+changeFigure:stand.png -right -next;
+雪之下雪乃:请用茶 -fontSize=default -right;
+一色:我们去哪里呢？ -fontSize=default;
+
+choose:图书馆:图书馆.txt|食堂:食堂.txt;
