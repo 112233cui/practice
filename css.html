@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS基础知识</title>
+    <!-- 外部样式表 -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- 内部样式表，使用style元素将规则作为Style元素的内容 -->
+    <style>
+      h1 {
+        text-align: center;
+        color: red;
+      }
+      .zw {
+        text-indent: 2em;
+        line-height: 2;
+      }
+      #rule-1 {
+        border-left: 4px red solid;
+        padding-left: 6px;
+      }
+      a:link {
+        color: rgb(240, 11, 11);
+        text-decoration: none;
+      }
+      a:visited {
+        color: black;
+          }
+    a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+    h3::before {
+        content: '';
+        display: inline-block;
+        background-color: red;
+        width: 2em;
+        height: 2em;
+    }
+    h3::after {
+        content: '';
+        display: inline-block;
+        background-color: yellow;
+        width: 2em;
+        height: 2em;
+    }
+    div p {
+        line-height: 2;
+    }
+    h3+p {
+        color: rgb(16, 134, 93);
+    }
+    h1,h2,h3,h4,h5,h6 {
+        text-align: center;
+
+    }
+    pre {
+        font-family: 'Cascadia Mono';
+    }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-decoration: underline">CSS的三种使用方式</h1>
+    <p>外部样式表、内部样式表、内嵌样式表</p>
+    <h2 id="rule-1">CSS的语法规则</h2>
+    <p>
+      CSS的多数规则，是由选择符及规则集构成，规则集由`{}`标记，规则之间用分号`;`连接，规则由属性及其值构成。属性和属性值之间用`:`连接。
+    </p>
+    <h2>CSS中的选择符</h2>
+    <ol>
+      <li>简单选择符</li>
+      <li>伪元素选择符</li>
+      <li>组合选择符</li>
+      <li>群组选择符</li>
+    </ol>
+  <div>
+        <h3>简单选择符</h3>
+        <p>
+          简单选择符包括元素选择符，例如p、h1、body这些HTML元素本身就可以作为CSS的选择符，选中文档中所有同类元素。
+        </p>
+        <p class="zw">
+          除了元素选择符之外，还有类选择符和ID选择符，这两类选择符必须要与HTML文档产生对应关系，在HTML文档中，使用class属性标注的元素，会被类选择符选中。元素可以只用多个类，例如：<pre>&lt; div class = "main0 in show_bg asidelogob"></pre>，类也可以在不同元素中多次使用。
+        </p>
+        <p>
+          ID选择符，需要在HTML文档中使用id属性（其值必须为唯一）进行标记，然后使用id选择符进行选择。
+        </p>
+        <p><a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements">伪类选择符</a>中，最常用的有链接伪类选择符。</p>
+  </div>
+  </body>
+</html>
