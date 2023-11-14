@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 盒模型演示</title>
+    <style>
+      body {
+        background: #ccc;
+      }
+      .box1,
+      .box2 {
+        background-color: #682f2f;
+        color: white;
+        width: 600px;
+        height: 300px;
+        border: 10px rgb(230, 230, 230) double;
+        margin-top: 50px;
+        margin-left: 50px;
+        text-align: center;
+        line-height: 300px;
+        border-radius: 150px;
+        box-shadow: 10px 10px 5px black;
+      }
+      .box2 {
+        border-radius: 10px;
+        line-height: 1.7;
+        text-align-last: left;
+        text-indent: 2em;
+        font-size: 18px;
+        padding: 1em;
+        box-sizing: border-box;
+      }
+      li {
+        display: inline;
+      }
+      p img {
+        display: block;
+        border-radius: 15px;
+        border: 1px white solid;
+        margin: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS 盒模型演示</h1>
+    <!-- <div class="box1">盒模型</div> -->
+    <div class="box2">
+      道冲而用之或不盈，渊兮似万物之宗。挫其锐，解其纷，和其光，同其尘。湛兮似或存，吾不知谁之子，象帝之先。
+    </div>
+    <ul>
+      <li>列表项</li>
+      <li>列表项</li>
+      <li>列表项</li>
+      <li>列表项</li>
+    </ul>
+    <style>
+      .demo1 {
+        position: relative;
+        left: 100px;
+        top: -100px;
+        /* left: 50%;
+        top: 50%; */
+      }
+      .demo2 {
+        position: absolute;
+        left: 100px;
+      }
+      .container {
+        position: relative;
+      }
+    </style>
+    <p class="container">
+      <img src="snow.jpg" alt="下雪天的森林" width="200px " class="demo1" />
+      <img src="snow.jpg" alt="下雪天的森林" width="200px" class="demo2" />
+      <img src="snow.jpg" alt="下雪天的森林" width="200px" />
+    </p>
+  </body>
+</html>

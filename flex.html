@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box练习</title>
+    <style>
+      ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        align-items: center;
+      }
+      li img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
+      li p {
+        background: #d51e1e;
+        color: white;
+        width: 400px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><img src="snow.jpg" alt="下雪天的森林" /></li>
+      <li><p>1</p></li>
+      <li><p>2</p></li>
+      <li><p>3</p></li>
+      <li><p>4</p></li>
+      <li><p>5</p></li>
+      <li><p>6</p></li>
+      <li><p>7</p></li>
+      <li><p>8</p></li>
+    </ul>
+  </body>
+</html>
