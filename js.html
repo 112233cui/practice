@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS的三种使用方式</title>
+  </head>
+  <body>
+    <h2>外部脚本</h2>
+    <!-- <script src="main.js"></script> -->
+    <h2>内部脚本</h2>
+    <script>
+      let 信息 = "这是来自变量的信息";
+      // //   alert("这是来自内容脚本的信息");
+      const 学费 = 12000;
+      //   alert(信息, 学费);
+      console.log(信息, 学费);
+      console.log(typeof 信息);
+      console.log(typeof 学费);
+      let 价格 = 1400.35;
+      console.log(String(价格));
+      let 总计 = "1400";
+      console.log(Number(总计));
+      console.log(String(价格) + 总计);
+      let year = 2023;
+      if (year == 2025) {
+        console.log("毕业了");
+      } else {
+        console.log("还没毕业");
+      }
+      for (let index = 0; index < 10; index++) {
+        console.log(index);
+      }
+      let i = 0;
+      while (i < 10) {
+        i++;
+        console.log(i);
+      }
+    </script>
+    <h2 onclick="javascript:alert('Hello!');">行内脚本</h2>
+  </body>
+</html>
