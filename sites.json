@@ -11,13 +11,13 @@
                 },
                 {
                     "description": "前Openai员工创办的Chatgpt竞品",
-                    "image": "assets/images/openai.png",
+                    "image": "assets/images/claudeai.jpg",
                     "name": "Claude",
-                    "url": "https://chat.openai.com"
+                    "url": "https://claude.ai/"
                 },
                 {
                     "description": "基于Chatgpt的编程辅助网站",
-                    "image": "assets/images/openai.png",
+                    "image": "assets/images/devvai.png",
                     "name": "devv.ai",
                     "url": "https://devv.ai"
                 },

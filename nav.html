@@ -15,7 +15,9 @@
     <div>
       <div
         class="container mx-auto p-8"
-        style="background-image: url('https://tailwind.nodejs.cn/_next/static/media/hero@75.b2469a49.jpg');"
+        style="
+          background-image: url('https://tailwind.nodejs.cn/_next/static/media/hero@75.b2469a49.jpg');
+        "
         id="sites"
       ></div>
     </div>
@@ -44,7 +46,7 @@
               siteCard.innerHTML = `
               <a href="${site.url}">
                 <div class="flex gap-x-4 border border-slate-500 p-4 rounded-md hover:shadow-md">
-                  <img src="${site.image}" alt="" class="block w-24 h-24" />
+                  <img src="${site.image}" alt="" class="block w-24 h-24 rounded-full" />
                   <div>
                     <h3 class="text-lg font-bold">${site.name}</h3>
                     <p class="text-slate-500">${site.description}</p>
