@@ -1,0 +1,116 @@
+{
+    "categories": [
+        {
+            "name": "常用AI工具",
+            "sites": [
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                }
+            ]
+        },
+        {
+            "name": "XXXXAI工具",
+            "sites": [
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "description": "网站描述文字描述文字",
+                    "image": "assets/images/openai.png",
+                    "name": "网站名称",
+                    "url": "https://chat.openai.com"
+                }
+            ]
+        }
+    ]
+}
