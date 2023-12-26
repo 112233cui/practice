@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript核心语法2</title>
+  </head>
+  <body>
+    <h2>函数的定义、调用、参数、返回值以及回调函数</h2>
+    <script>
+      function 打招呼(who = "小丽", message = "你好！") {
+        let 内容 = `你对${who}说：${message}`;
+        console.log(内容);
+        return 内容;
+      }
+      打招呼("小明", "你好");
+      打招呼();
+      let a = 打招呼();
+      console.log(a + "这是函数返回值");
+
+      //   匿名函数
+      const numbers = [1, 2, 3, 4, 5];
+
+      numbers.forEach(function (number) {
+        console.log(number * 2);
+      });
+      const double = (x) => x * 2;
+
+      console.log(double(5)); // 输出：10
+
+      //   面向对象
+      let book = {
+        title: "JavaScript Programming",
+        author: "John Doe",
+        publicationYear: 2022,
+        isAvailable: true,
+        borrow: function () {
+          this.isAvailable = false;
+        },
+        return: function () {
+          this.isAvailable = true;
+        },
+      };
+      console.log(book);
+    </script>
+  </body>
+</html>
