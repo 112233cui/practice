@@ -4,22 +4,22 @@
             "name": "常用AI工具",
             "sites": [
                 {
-                    "description": "网站描述文字描述文字",
+                    "description": "目前最强大的LLM内容生成工具",
                     "image": "assets/images/openai.png",
-                    "name": "网站名称",
+                    "name": "ChatGpt",
                     "url": "https://chat.openai.com"
                 },
                 {
-                    "description": "网站描述文字描述文字",
+                    "description": "前Openai员工创办的Chatgpt竞品",
                     "image": "assets/images/openai.png",
-                    "name": "网站名称",
+                    "name": "Claude",
                     "url": "https://chat.openai.com"
                 },
                 {
-                    "description": "网站描述文字描述文字",
+                    "description": "基于Chatgpt的编程辅助网站",
                     "image": "assets/images/openai.png",
-                    "name": "网站名称",
-                    "url": "https://chat.openai.com"
+                    "name": "devv.ai",
+                    "url": "https://devv.ai"
                 },
                 {
                     "description": "网站描述文字描述文字",
